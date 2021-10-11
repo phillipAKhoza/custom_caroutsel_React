@@ -9,7 +9,7 @@
 |------------------------|----------------------|-----------------------|---------------------------------------------------------------|
 |Site Url of library	    | Text	                |yes	                   |                                                               |
 |Picture Library	        | Choice/Dropdown	     |yes           	        |this is filled with all Picture Libraries (BaseTemplate : 109) |
-|number images to load	  | number	              |yes	                   |number between 1 and 200                                       |
+|number images to load	  | number	              |yes	                   |number between 1 and 50                                        |
 
 # react-slick Props
 For all available props, [click here](https://react-slick.neostack.com/docs/api/).
