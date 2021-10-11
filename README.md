@@ -3,7 +3,7 @@
  
  i used Microsoft Graph API to get image url and used PnPjs to load files from Picture library the images are loading in lazy mode, progressively.
  
-Web Part Properties
+# Web Part Properties
 
 |Property	               | Type	                |Required	              |comments                                                       |
 |------------------------|----------------------|-----------------------|---------------------------------------------------------------|
@@ -11,18 +11,18 @@ Web Part Properties
 |Picture Library	        | Choice/Dropdown	     |yes           	        |this is filled with all Picture Libraries (BaseTemplate : 109) |
 |number images to load	  | number	              |yes	                   |number between 1 and 200                                       |
 
-react-slick Props
-For all available props, go here.
+# react-slick Props
+For all available props, [click here](https://react-slick.neostack.com/docs/api/).
 
-react-slick Methods
-For all available methods, go here
+# react-slick Methods
+For all available methods, [click here](https://react-slick.neostack.com/docs/api/#methods).
 
-Clone this repository
+# Clone this repository
 in the command line run:
 * npm install
 * gulp build
 
-for tesing 
+# for tesing 
 
 * gulp package-solution
 * gulp serve --nobrowser
@@ -30,13 +30,13 @@ for tesing
 * Upload or drag and drop the custom_caroutsel_React.sppkg to the app catalog
 * Select Deploy
 
-Install the client-side solution on your site
+# Install the client-side solution on your site
 * Go to your developer site collection or site collection that you want to use for testing
 * Select the gears icon on the top nav bar on the right, and then select Add an app to go to your Apps page
 * In the Search box, enter custom_caroutsel_React, and select ENTER to filter your apps
 * Select the custom_caroutsel_React app to install the app on the site.
 
-for production
+# for production
 
 * gulp bundle --ship
 * gulp package-solution --ship
