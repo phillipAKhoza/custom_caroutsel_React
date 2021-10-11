@@ -44,3 +44,10 @@ in the command line run:
 * Make sure you have at least one Picture Library on one of your site collections
 * Add the web part to a page
 * In the web part's property pane, enter the Site Url (if library is on a different site collect) and select a Picture Library from the Library drop-down
+
+# Solution
+The web part Use PnPjs library, Microsoft Graph API, Office-ui-fabric-react components, react-slick Component
+
+|Solution|	Author(s)|
+|--|--|
+|Carousel Image Web Part |	[Phillip khoza](https://www.phillip-dev.com/)
