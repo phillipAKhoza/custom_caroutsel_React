@@ -279,7 +279,7 @@ export default class CustomCarousel extends React.Component<ICustomCarouselProps
 									:
 									<div style={{ width: '100%', height: '100%' }}>
 										<div className={styles.caption}id='size'>
-										<h2 className={styles.capText} >WELCOME TO DCOG INTRANET SYSTEM</h2>
+										<h2 className={styles.capText} >CAROUSEL</h2>
 										</div>
 										<div style={{ width: '100%',top:'0' }}>
 											<Slider
